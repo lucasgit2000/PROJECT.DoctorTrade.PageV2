@@ -1,0 +1,19 @@
+{
+  "name": "doctor-trader-api",
+  "version": "1.0.0",
+  "description": "landing-page-managment-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasgit2000/PROJECT.DoctorTrade.V2.git"
+  },
+  "author": "Lucas Lucena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasgit2000/PROJECT.DoctorTrade.V2/issues"
+  },
+  "homepage": "https://github.com/lucasgit2000/PROJECT.DoctorTrade.V2#readme"
+}
