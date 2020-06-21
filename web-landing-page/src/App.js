@@ -1,6 +1,7 @@
 import React from 'react';
 
 //local components
+import Timer from './components/timer/timer';
 import NavBar from './components/navbar/navbar';
 import Home from './components/home/home';
 import Portfolio from './components/portfolio/portfolio';
@@ -14,6 +15,7 @@ import FloatButton from './components/floatButton/floatButton';
 function App() {
   return (
     <div className="App">
+        <Timer />
         <NavBar />
         <Home />
         <Portfolio />

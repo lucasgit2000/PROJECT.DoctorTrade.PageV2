@@ -1,13 +1,16 @@
-div .container {
-  background-color: #343a40;
+div .containerNavBar {
+  background-color:rgba(0, 0, 0, 0.5);
+  position: fixed;
+  right: 0;
+  left: 0;
 }
 
-div .container img {
+div .containerNavBar img {
   cursor: pointer;
   width: 80px;
 }
 
-div .content{
+div .contentNavBar{
     padding:  10px 20%;
     display: flex;
     justify-content: space-between;

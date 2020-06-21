@@ -4,8 +4,8 @@ import './navbar.css'
 
 function NavBar() {
     return (
-        <div className="container">
-            <div className="content">
+        <div id="navBar" className="containerNavBar">
+            <div className="contentNavBar">
                 <a href="#home">
                     <img id='navLogo'
                         className='center'
