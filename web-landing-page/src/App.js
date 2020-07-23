@@ -10,6 +10,7 @@ import Demonstrations from './components/demonstration/demonstration';
 import Reviews from './components/reviews/reviews';
 import About from './components/about/about';
 import FloatButton from './components/floatButton/floatButton';
+import Footer from './components/footer/footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Demonstrations />
         <Reviews />
         <About />
+        {/* <Footer/> */}
 
         <FloatButton />
     </div>
