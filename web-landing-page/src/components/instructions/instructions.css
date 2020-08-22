@@ -3,12 +3,55 @@
 }
 
 .InstructionsHeader {
-  background-color: #ffffff;
+  background-color: #fdbb2d;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: 282c34;
+  color: #ffffff;
+}
+
+.InstructionsHeader > h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.InstructionsHeader .how-to-section .how-to-steps {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.InstructionsHeader .how-to-section .how-to-steps > div {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 40px 10px 50px 10px;
+  width: calc(33.33333% - 15px);
+  border-radius: 60px;
+  background: #fff;
+  margin: 2em;
+  width: 300px;
+  box-shadow: 5px 10px #000000af;
+}
+
+.InstructionsHeader .how-to-section .how-to-steps > div p {
+  color: #fdbb2d;
+  font-size: 85px;
+  font-weight: 800;
+  margin: 10px;
+}
+
+.InstructionsHeader .how-to-section .how-to-steps > div h2 {
+  color: #fdbb2d;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.InstructionsHeader .how-to-section .how-to-steps > div > span {
+  display: block;
+  height: 1px;
+  background: #000000;
 }

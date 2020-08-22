@@ -16,17 +16,17 @@ import Footer from './components/footer/footer';
 function App() {
   return (
     <div className="App">
-        <Timer />
-        <NavBar />
-        <Home />
-        <Portfolio />
-        <Instructions />
-        <Demonstrations />
-        <Reviews />
-        <About />
-        {/* <Footer/> */}
+      <NavBar />
+      <Home />
+      <About />
+      <Instructions />
+      <Demonstrations />
+      <Reviews />
+      <Portfolio />
+      {/* <Timer /> */}
+      {/* <Footer/> */}
 
-        <FloatButton />
+      {/* <FloatButton /> */}
     </div>
   );
 }

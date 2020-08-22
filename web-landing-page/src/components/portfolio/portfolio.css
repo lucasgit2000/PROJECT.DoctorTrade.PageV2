@@ -1,9 +1,5 @@
-.PortfolioPage {
-  text-align: center;
-}
-
 .PortfolioHeader {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,4 +7,25 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #ffffff;
+}
+
+.Portfolio .PortfolioHeader .products ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /*make flex items break line*/
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Portfolio .PortfolioHeader .products ul > li {
+  height: 280px;
+  width: 250px;
+  padding: 20px 20px;
+  border: 1px;
+  border-radius: 0.5em;
+  /* flex-basis: 50%; */
+  margin: 1em;
+  padding: 0.5em;
+  background-size: cover;
+  background-image: url("../../assets/investment-graph-background.jpg");
 }
