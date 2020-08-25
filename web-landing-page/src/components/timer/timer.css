@@ -12,16 +12,10 @@ span {
 }
 
 div .contentTimer {
+  height: 16px;
   padding: 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-}
-
-/* div .containerTimer .contentTimer {
-} */
-
-div .containerTimer .cronometro {
-    font-size: 32px;
 }

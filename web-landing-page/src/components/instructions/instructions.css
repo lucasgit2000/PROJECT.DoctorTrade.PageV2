@@ -3,7 +3,7 @@
 }
 
 .InstructionsHeader {
-  background-color: #fdbb2d;
+  background-color: #3498db;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -38,14 +38,14 @@
 }
 
 .InstructionsHeader .how-to-section .how-to-steps > div p {
-  color: #fdbb2d;
+  color: #3498db;
   font-size: 85px;
   font-weight: 800;
   margin: 10px;
 }
 
 .InstructionsHeader .how-to-section .how-to-steps > div h2 {
-  color: #fdbb2d;
+  color: #3498db;
   font-size: 20px;
   margin-top: 50px;
 }

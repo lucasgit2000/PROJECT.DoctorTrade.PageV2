@@ -6,8 +6,7 @@ function Timer() {
     return (
         <div className="containerTimer">
             <div className="contentTimer">
-                <span className="desc-promo">CONTAGEM REGRESSIVA PARA FIM DAS INSCRIÇÕES: </span>
-                <span className="cronometro">10:00:00</span>
+                <span className="desc-promo">CONTAGEM REGRESSIVA PARA FIM DAS INSCRIÇÕES: <strong>10:00:00</strong> </span>
             </div>
         </div>
     );
