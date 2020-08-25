@@ -1,14 +1,61 @@
-.AboutPagePage {
+.about-page {
   text-align: center;
+  min-height: 80vh;
 }
 
-.AboutPageHeader {
-  background-color: #ffffff;
-  min-height: 100vh;
+.about-page-header {
   display: flex;
   flex-direction: column;
+  z-index: -1;
+  position: relative;
+  background-color: #ffffff;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #000000;
+  min-height: 0;
+  margin-bottom: 20vh;
+}
+
+.about-page-header h1 {
+  position: absolute;
+  top: 0;
+}
+
+.list-about{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px 20px;
+}
+
+.list-about > .list-item{
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.list-about > span{
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.list-about > p{
+  text-align: justify;
+}
+
+.list-about > img{
+  width: 100px;
+  margin-bottom: 40px;
 }

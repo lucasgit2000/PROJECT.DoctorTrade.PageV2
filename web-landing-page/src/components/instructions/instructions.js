@@ -25,6 +25,21 @@ function Instructions() {
                                 <span></span>
                                 <h2>Tenha sinais altamente precisos</h2>
                             </div>
+                            <div className="step3">
+                                <p>3</p>
+                                <span></span>
+                                <h2>Tenha sinais altamente precisos</h2>
+                            </div>
+                            <div className="step3">
+                                <p>3</p>
+                                <span></span>
+                                <h2>Tenha sinais altamente precisos</h2>
+                            </div>
+                            <div className="step3">
+                                <p>3</p>
+                                <span></span>
+                                <h2>Tenha sinais altamente precisos</h2>
+                            </div>
                         </div>
                     </div>
                 </section>
