@@ -5,7 +5,7 @@
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #282c34;
+    background-color: #ffffff;
     z-index: 0;
   }
   
@@ -16,5 +16,5 @@
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: #000000;
   }

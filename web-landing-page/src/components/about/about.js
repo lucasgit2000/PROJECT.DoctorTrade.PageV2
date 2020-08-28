@@ -7,7 +7,7 @@ function About() {
     return (
         <div className="about-page">
             <header className="about-page about-page-header">
-                <h1>About</h1>
+                <h1>Sobre</h1>
             </header>
             <body className="about-page about-page-body">
                 <div className="about-page-body container-about">

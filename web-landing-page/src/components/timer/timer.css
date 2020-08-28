@@ -6,16 +6,21 @@ div .containerTimer {
   bottom: 0;
 }
 
-span {
+.containerTimer .contentTimer .desc-promo {
   color: #000000;
   text-decoration: none;
+  font-weight: 600;
 }
 
-div .contentTimer {
-  height: 16px;
+.contentTimer {
+  height: 22px;
   padding: 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+.containerTimer .contentTimer .desc-promo > a{
+  text-decoration: none;
 }

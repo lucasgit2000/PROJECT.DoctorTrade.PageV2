@@ -1,33 +1,42 @@
-.HomePage{
+.homepage {
   text-align: center;
-  background-image: url("../../assets/investment-graph-background.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-bg-image{  
+  position: relative;
+  z-index: -1;
+  min-height: 120vh;
+  background-image: url("../../assets/MediocreElegantFattaileddunnart-size_restricted.gif");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #282c34;
-  z-index: 0;
+  filter: blur(8px);
+  -webkit-filter: blur(9px);
+  transform: scale(1.1); 
 }
 
-.HomePageHeader {
-  min-height: 120vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.homepage .homepage-content{
+  z-index: -1;
+  position: absolute;
+  top: 20%;
+}
+
+.homepage .homepage-content .homepage-header {
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 0 300px;
 }
 
-.HomePageHeader > h1{
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.HomePageHeader > h2{
+.homepage .homepage-content .homepage-body {
+  font-size: calc(5px + 2vmin);
+  color: white;
   text-align: justify;
-  padding: 50px 100px;
+  padding: 0 300px;
   margin-top: 0;
 }
-

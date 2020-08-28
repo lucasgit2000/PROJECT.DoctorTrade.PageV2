@@ -3,14 +3,14 @@
 }
 
 .InstructionsHeader {
-  background-color: #3498db;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #ffffff;
+  color: #000000;
 }
 
 .InstructionsHeader > h1 {
@@ -38,14 +38,14 @@
 }
 
 .InstructionsHeader .how-to-section .how-to-steps > div p {
-  color: #3498db;
+  color: #000000;
   font-size: 85px;
   font-weight: 800;
   margin: 10px;
 }
 
 .InstructionsHeader .how-to-section .how-to-steps > div h2 {
-  color: #3498db;
+  color: #000000;
   font-size: 20px;
   margin-top: 50px;
 }
