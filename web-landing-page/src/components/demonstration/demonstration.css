@@ -1,20 +1,49 @@
-.DemonstrationPage{
-    text-align: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    z-index: 0;
-  }
-  
-  .DemonstrationeHeader {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: #000000;
-  }
+.demonstration-page {
+  text-align: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+  min-height: 120vh;
+  margin-top: 20px;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+}
+
+.demonstration-header {
+  font-size: calc(10px + 2vmin);
+  margin-bottom: 80px;
+}
+
+.demonstration-body {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.demonstration-body-content {
+  padding: 0 150px;
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.demonstration-body-content > img {
+  margin: 70px;
+  height: 600px;
+}
+
+.demonstration-body-content .demonstration-body-content-text {
+  font-size: calc(10px + 2vmin);
+  font-weight: 600;
+}

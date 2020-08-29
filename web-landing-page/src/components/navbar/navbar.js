@@ -9,7 +9,7 @@ function NavBar() {
                 <a href="#home">
                     <img id='navLogo'
                         className='center'
-                        src={require('../../assets/logo.png')}
+                        src={require('../../assets/img/logo.png')}
                         alt='logo' />
                 </a>
                 <ul>
