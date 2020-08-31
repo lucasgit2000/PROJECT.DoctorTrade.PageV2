@@ -60,3 +60,18 @@
   width: 100px;
   margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 880px){
+  .list-about > .list-item{
+  
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+  
+  }
+}
