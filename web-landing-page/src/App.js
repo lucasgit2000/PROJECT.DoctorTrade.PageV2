@@ -23,7 +23,7 @@ function App() {
       <Reviews />
       <Portfolio />
       <Timer />
-      {/* <Footer/> */}
+      <Footer/>
       {/*TODO: float button */}
     </div>
   );

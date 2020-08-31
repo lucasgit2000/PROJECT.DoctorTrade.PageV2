@@ -1,14 +1,22 @@
-.Reviews {
+.reviews {
+  margin-top: 100px;
   text-align: center;
+  min-height: 100vh;
 }
 
-.ReviewsHeader {
+.reviews-header {
   background-color: #ffffff;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #000000;
+  margin-bottom: 20px;
+}
+
+.reviews-body>img{
+  margin-top: 50px;
+  width: 18%;
+  margin: 5%;
 }
