@@ -23,18 +23,41 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 .InstructionsHeader .how-to-section .how-to-steps > div {
   box-sizing: border-box;
   text-align: center;
   padding: 40px 10px 50px 10px;
-  width: calc(33.33333% - 15px);
   border-radius: 60px;
-  background: #fff;
+  background: #f8f9fa;
   margin: 2em;
-  width: 300px;
+  width: 250px;
   box-shadow: 5px 10px #000000af;
+}
+
+@media only screen and (max-width: 1060px) {
+  .InstructionsHeader .how-to-section .how-to-steps > div {
+    margin: 1em;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .max-width {
+    max-width: 500px;
+  }
+
+  .InstructionsHeader .how-to-section .how-to-steps > div {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .InstructionsHeader > h1 {
+    font-size: 35px;
+  }
 }
 
 .InstructionsHeader .how-to-section .how-to-steps > div p {

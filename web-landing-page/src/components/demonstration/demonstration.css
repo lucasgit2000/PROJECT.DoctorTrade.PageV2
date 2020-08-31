@@ -17,11 +17,11 @@
 
 .demonstration-header {
   font-size: calc(10px + 2vmin);
-  margin-bottom: 80px;
+  margin-bottom: 200px;
 }
 
 .demonstration-body {
-  margin-top: 15%;
+  margin-top: 200px;
   display: flex;
   flex-direction: row;
   height: 200px;
@@ -30,20 +30,22 @@
 }
 
 .demonstration-body-content {
-  padding: 0 150px;
   display: flex;
   flex-direction: row;
-  height: 200px;
+  flex-wrap: wrap;
+  max-height: 800px;
   align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .demonstration-body-content > img {
-  margin: 70px;
   height: 600px;
 }
 
 .demonstration-body-content .demonstration-body-content-text {
-  font-size: calc(10px + 2vmin);
-  font-weight: 600;
+  font-size: calc(8px + 2vmin);
+  text-align: justify;
+  width: 400px;
+  margin: 120px;
 }
