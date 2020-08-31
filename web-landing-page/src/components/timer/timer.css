@@ -6,6 +6,14 @@ div .containerTimer {
   bottom: 0;
 }
 
+.containerTimer .timer-closeButton{
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
 .containerTimer .contentTimer .desc-promo {
   color: #000000;
   text-decoration: none;

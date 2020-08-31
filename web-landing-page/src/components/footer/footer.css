@@ -1,7 +1,8 @@
 .footer {
-    padding: 25px 0;
+    margin-top: 200px;
     text-align: center;
-    background-color: #212529;
+    background-color: #F8F9FA;
+    position: relative;
 }
 
 .footer span.copyright {
@@ -20,7 +21,8 @@
 }
 
 ul.social-buttons {
-    margin-bottom: 0
+    margin-bottom: 0;
+    padding: 20px 20px;
 }
 
 ul.social-buttons li a {

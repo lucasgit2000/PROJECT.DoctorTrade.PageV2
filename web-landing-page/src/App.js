@@ -22,7 +22,7 @@ function App() {
       <Demonstrations />
       <Reviews />
       <Portfolio />
-      <Timer />
+      <Timer/>
       <Footer/>
       {/*TODO: float button */}
     </div>
