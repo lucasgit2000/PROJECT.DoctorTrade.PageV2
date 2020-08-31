@@ -10,6 +10,7 @@ import Demonstrations from './components/demonstration/demonstration';
 import Reviews from './components/reviews/reviews';
 import About from './components/about/about';
 import Footer from './components/footer/footer';
+import FloatButton from './components/floatButton/floatButton';
 
 
 function App() {
@@ -22,9 +23,9 @@ function App() {
       <Demonstrations />
       <Reviews />
       <Portfolio />
-      <Timer/>
-      <Footer/>
-      {/*TODO: float button */}
+      <Timer />
+      <Footer />
+      <FloatButton />
     </div>
   );
 }
