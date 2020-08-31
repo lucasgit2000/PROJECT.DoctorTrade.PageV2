@@ -6,7 +6,18 @@ div .containerTimer {
   bottom: 0;
 }
 
-.containerTimer .timer-closeButton{
+.contentTimer {
+  height: 22px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 12px 0;
+}
+
+.containerTimer .timer-closeButton {
   position: absolute;
   right: 0;
   cursor: pointer;
@@ -20,15 +31,36 @@ div .containerTimer {
   font-weight: 600;
 }
 
-.contentTimer {
-  height: 22px;
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+.containerTimer .contentTimer .desc-promo > a {
+  text-decoration: none;
 }
 
-.containerTimer .contentTimer .desc-promo > a{
-  text-decoration: none;
+@media only screen and (max-width: 620px) {
+  .containerTimer .contentTimer .desc-promo {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .containerTimer .contentTimer .desc-promo {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 11px;
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (max-width: 395px) {
+  .containerTimer .contentTimer .desc-promo {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 9px;
+    flex-wrap: nowrap;
+  }
 }

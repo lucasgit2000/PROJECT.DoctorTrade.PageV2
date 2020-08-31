@@ -1,5 +1,5 @@
 div .containerNavBar {
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   right: 0;
   left: 0;
@@ -10,27 +10,66 @@ div .containerNavBar img {
   width: 80px;
 }
 
-div .contentNavBar{
-    padding:  10px 20%;
+div .contentNavBar {
+  padding: 10px 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.containerNavBar-list {
+  padding: 0 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  font-weight: 700;
+}
+
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+li a:hover {
+  color: #0088a9;
+}
+
+.hamburger-menu {
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger-menu:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 1090px) {
+  div .contentNavBar .containerNavBar-list {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .hamburger-menu-list {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 0;
+    font-weight: 700;
+  }
 }
-
-li{
-    list-style: none;
-    display: inline-block;
-    padding: 0 20px;
-}
-
-li a{
-    color: #ffffff;
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
-}
-
-li a:hover{
-    color: #0088a9;
-}
-
-

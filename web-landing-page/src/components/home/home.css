@@ -28,15 +28,34 @@
 }
 
 .homepage .homepage-content .homepage-header {
+  display: flex;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 0 300px;
+  justify-content: center;
 }
 
 .homepage .homepage-content .homepage-body {
+  display: flex;
+  justify-content: center;
   font-size: calc(5px + 2vmin);
   color: white;
   text-align: justify;
   padding: 0 300px;
   margin-top: 0;
+}
+
+.homepage .homepage-content .homepage-body > h2 {
+ width: 700px;
+}
+
+@media only screen and (max-width: 760px) {
+  .homepage .homepage-content .homepage-body > h2 {
+    width: 400px;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+  .homepage .homepage-content .homepage-body > h2 {
+    width: 300px;
+   }
 }

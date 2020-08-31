@@ -6,10 +6,30 @@
     background-size: cover;
     right: 0;
     bottom: 0;
-    margin: 50px;
+    margin-right: 50px;
+    margin-bottom: 60px;
     cursor: pointer;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 790px){
+    .float-button{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        background-image: url('../../assets/img/telegram.png');
+        background-size: cover;
+        right: 0;
+        bottom: 0;
+        margin-right: 20px;
+        margin-bottom: 60px;
+        cursor: pointer;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
