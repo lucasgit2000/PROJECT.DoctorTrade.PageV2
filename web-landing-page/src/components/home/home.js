@@ -6,7 +6,7 @@ import './home.css'
 function Home() {
     return (
         <>
-            <div className="homepage-bg-image"></div>
+            <div className="homepage-bg-image" id="home"></div>
             <div className="homepage">
                 <div className="homepage-content">
                     <header className="homepage-header">

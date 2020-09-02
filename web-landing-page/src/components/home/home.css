@@ -24,7 +24,7 @@
 .homepage .homepage-content{
   z-index: -1;
   position: absolute;
-  top: 20%;
+  top: 100px;
 }
 
 .homepage .homepage-content .homepage-header {

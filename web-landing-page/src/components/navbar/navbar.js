@@ -7,9 +7,9 @@ function NavBar() {
     const [showMenuHamburguerList, setShowMenuHamburguerList] = useState(false)
 
     let hamburgerMenuList = (
-        <ul className="hamburger-menu-list">
-            <li><a href="#instructions">Começar Agora</a></li>
-            <li><a href="#demonstration">Como Funciona</a></li>
+        <ul className="containerNavBar-list">
+            <li><a href="#demonstration">Demonstração</a></li>
+            <li><a href="#instructions">Como Funciona</a></li>
             <li><a href="#reviews">Reviews</a></li>
             <li><a href="#portfolio">Produtos Doctor</a></li>
             <li><a href="#about">Sobre</a></li>
@@ -33,8 +33,8 @@ function NavBar() {
                     <i className="fa fa-bars"></i>
                 </button>
                 <ul className="containerNavBar-list">
-                    <li><a href="#instructions">Começar Agora</a></li>
-                    <li><a href="#demonstration">Como Funciona</a></li>
+                    <li><a href="#demonstration">Demonstração</a></li>
+                    <li><a href="#instructions">Como Funciona</a></li>
                     <li><a href="#reviews">Reviews</a></li>
                     <li><a href="#portfolio">Produtos Doctor</a></li>
                     <li><a href="#about">Sobre</a></li>

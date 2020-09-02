@@ -5,7 +5,7 @@ import './about.css'
 
 function About() {
     return (
-        <div className="about-page">
+        <div className="about-page" id="about">
             <header className="about-page about-page-header">
                 <h1>Sobre</h1>
             </header>

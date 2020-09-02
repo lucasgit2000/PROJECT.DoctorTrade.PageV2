@@ -4,11 +4,11 @@ import './instructions.css'
 
 function Instructions() {
     return (
-        <div className="Instructions">
+        <div className="Instructions" id="instructions">
             <header className="InstructionsHeader">
                 <h1>Como funciona</h1>
                 <section className="how-to-section">
-                    <div class="max-width">
+                    <div className="max-width">
                         <div className="how-to-steps">
                             <div className="step1">
                                 <p>1</p>

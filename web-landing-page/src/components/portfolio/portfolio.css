@@ -7,13 +7,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #000000;
+  z-index: -1;
+  position: relative;
+  margin-bottom: 40px;
 }
 
 .Portfolio .PortfolioHeader .products ul {
+  padding: 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; /*make flex items break line*/
-  justify-content: space-evenly;
+  flex-wrap: wrap; 
+  justify-content: center;
   align-items: center;
 }
 
@@ -24,9 +28,7 @@
   padding: 20px 20px;
   border: 1px;
   border-radius: 0.5em;
-  /* flex-basis: 50%; */
-  margin: 1em;
-  padding: 0.5em;
+  margin: 2em;
   background-size: cover;
   background-image: url("../../assets/img/investment-graph-background.jpg");
 }
