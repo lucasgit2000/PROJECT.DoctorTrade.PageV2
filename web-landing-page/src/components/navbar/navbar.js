@@ -7,7 +7,7 @@ function NavBar() {
     const [showMenuHamburguerList, setShowMenuHamburguerList] = useState(false)
 
     let hamburgerMenuList = (
-        <ul className="containerNavBar-list">
+        <ul className="hamburger-menu-list">
             <li><a href="#demonstration">Demonstração</a></li>
             <li><a href="#instructions">Como Funciona</a></li>
             <li><a href="#reviews">Reviews</a></li>

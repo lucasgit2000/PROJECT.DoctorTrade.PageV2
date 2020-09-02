@@ -24,14 +24,14 @@
 }
 
 .reviews-body > img {
-  width: 280px;
+  width: 250px;
   margin: 40px;
   margin-bottom: 0;
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1320px) {
   .reviews-body > img {
-    margin: 90px;
+    margin: 95px;
     margin-bottom: 0;
   }
 }
