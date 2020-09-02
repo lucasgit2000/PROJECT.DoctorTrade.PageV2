@@ -1,0 +1,81 @@
+.footer {
+  margin-top: 100px;
+  text-align: center;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+  padding: 20px 20px;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: inline-block;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #fff;
+  border-radius: 100%;
+  outline: 0;
+  background-color: #212529;
+}
+
+ul.social-buttons li a:active,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:hover {
+  background-color: #fed136;
+}
+
+ul .list-inline social-buttons {
+  padding-top: 0;
+}
+
+ul .list-inline-item {
+  padding: 0 5px;
+}
+
+.credits-fotter {
+  position: absolute;
+  left: 0;
+  margin: 20px;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 750px) {
+  .credits-fotter {
+    position: absolute;
+    left: 0;
+    font-weight: 600;
+    font-size: 9px;
+  }
+}
+
+.credits-fotter > p > a {
+  text-decoration: none;
+}

@@ -1,0 +1,61 @@
+.homepage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage-bg-image{  
+  position: relative;
+  z-index: -1;
+  min-height: 120vh;
+  background-image: url("../../assets/img/MediocreElegantFattaileddunnart-size_restricted.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(8px);
+  -webkit-filter: blur(9px);
+  transform: scale(1.1); 
+}
+
+.homepage .homepage-content{
+  z-index: -1;
+  position: absolute;
+  top: 100px;
+}
+
+.homepage .homepage-content .homepage-header {
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: center;
+}
+
+.homepage .homepage-content .homepage-body {
+  display: flex;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  text-align: justify;
+  padding: 0 300px;
+  margin-top: 0;
+}
+
+.homepage .homepage-content .homepage-body > h2 {
+ width: 700px;
+}
+
+@media only screen and (max-width: 760px) {
+  .homepage .homepage-content .homepage-body > h2 {
+    width: 400px;
+   }
+}
+
+@media only screen and (max-width: 500px) {
+  .homepage .homepage-content .homepage-body > h2 {
+    width: 300px;
+   }
+}

@@ -1,0 +1,81 @@
+.Instructions {
+  text-align: center;
+}
+
+.InstructionsHeader {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000000;
+  margin-bottom: 150px;
+}
+
+.InstructionsHeader > h1 {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.InstructionsHeader .how-to-section .how-to-steps {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.InstructionsHeader .how-to-section .how-to-steps > div {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 40px 10px 50px 10px;
+  border-radius: 60px;
+  background: #f8f9fa;
+  margin: 2em;
+  width: 250px;
+  box-shadow: 5px 10px #000000af;
+}
+
+@media only screen and (max-width: 1060px) {
+  .InstructionsHeader .how-to-section .how-to-steps > div {
+    margin: 1em;
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .max-width {
+    max-width: 500px;
+  }
+
+  .InstructionsHeader .how-to-section .how-to-steps > div {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .InstructionsHeader > h1 {
+    font-size: 35px;
+  }
+}
+
+.InstructionsHeader .how-to-section .how-to-steps > div p {
+  color: #000000;
+  font-size: 85px;
+  font-weight: 800;
+  margin: 10px;
+}
+
+.InstructionsHeader .how-to-section .how-to-steps > div h2 {
+  color: #000000;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.InstructionsHeader .how-to-section .how-to-steps > div > span {
+  display: block;
+  height: 1px;
+  background: #000000;
+}
