@@ -7,6 +7,9 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="container">
+                <div className="credits-fotter">
+                    <p>❤️ Developed by <a href="https://github.com/lucasgit2000/" target="_blank">Lucas Lucena</a></p>
+                </div>
                 <div className="row align-items-center">
                     <div className="col-md-4">
                         <ul className="list-inline social-buttons">
